@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CIMS - CIDB</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-bottom: 3px solid #1e88e5;
+  padding: 10px 20px;
+}
+.header img {
+  height: 60px;
+  margin-right: 15px;
+}
+.header-title {
+  font-size: 18px;
+  color: #0d47a1;
+  font-weight: bold;
+}
+.navbar {
+  background-color: #fff;
+  padding: 10px 30px;
+}
+.navbar button {
+  background-color: #1e88e5;
+  border: none;
+  color: white;
+  padding: 8px 20px;
+  font-weight: bold;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: default;
+}
+.navbar button:nth-child(2) {
+  background-color: #fbc02d;
+  color: black;
+}
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #fdfcff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px 30px;
+  box-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+.title {
+  font-weight: bold;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #2196f3;
+  padding-bottom: 5px;
+}
+.details {
+  display: flex;
+  align-items: flex-start;
+}
+.details img {
+  width: 130px;
+  height: 160px;
+  border: 1px solid #ccc;
+  margin-right: 30px;
+}
+.detail-info {
+  flex: 1;
+}
+.label {
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+}
+.value {
+  color: #000;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 14px;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+.note {
+  font-size: 12px;
+  color: red;
+  margin-top: 10px;
+}
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  color: #555;
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/CIDB_Malaysia_logo.svg/2560px-CIDB_Malaysia_logo.svg.png" alt="CIDB Logo">
+  <div class="header-title">Centralized Information Management System</div>
+</div>
+
+<div class="navbar">
+  <button>HOME</button>
+  <button>KEBENARAN KHAS</button>
+</div>
+
+<div class="container">
+  <div class="title">SEARCH CONSTRUCTION PERSONNEL</div>
+
+  <div class="details">
+    <img src="https://i.ibb.co/93qPty1j/foto-ali.jpg" alt="Foto ALI MUHTAR">
+    <div class="detail-info">
+      <div class="label">Mykad / Passport / IMM13P No.</div>
+      <div class="value">E4364689</div>
+
+      <div class="label">Personnel Name</div>
+      <div class="value">ALI MUHTAR</div>
+
+      <div class="label">Expiry Date</div>
+      <div class="value">05/08/2026</div>
+
+      <div class="label">Job Category</div>
+      <div class="value">PEKERJA BINAAN AM</div>
+
+      <div class="label">Nationality</div>
+      <div class="value">INDONESIA</div>
+    </div>
+  </div>
+
+  <div class="title">TRADE INFORMATION</div>
+  <table>
+    <thead>
+      <tr>
+        <th>TRADE</th>
+        <th>TRADE DESCRIPTION</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CGW0</td>
+        <td>GENERAL CONSTRUCTION WORKER</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="title">REGISTRATION HISTORY</div>
+  <table>
+    <thead>
+      <tr>
+        <th>REGISTRATION TYPE</th>
+        <th>START DATE</th>
+        <th>EXPIRY DATE</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>New Construction Personnel Registration</td>
+        <td>24/09/2025</td>
+        <td>05/08/2026</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="title">STATUS REGISTRATION</div>
+  <table>
+    <thead>
+      <tr>
+        <th>ADDRESS POS</th>
+        <th>TRACKING NO</th>
+        <th>CURRENT STATUS</th>
+        <th>REMARKS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>SUITE 1301, 13 FLOOR CITY PLAZA JALAN TEBRAU, JOHOR BAHRU, JOHOR</td>
+        <td>KEXMY1000012705837</td>
+        <td>Dalam proses penghantaran</td>
+        <td>Kad telah dicetak<br>Dalam proses penghantaran</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="note">
+    Nota: Semakan status penghantaran Kad Pendaftaran Personel Binaan boleh dibuat melalui pautan 
+    <a href="https://my.kex-express.com/tracking" target="_blank">https://my.kex-express.com/tracking</a><br>
+    Note: The delivery status of Construction Personnel Registration Card can be done via 
+    <a href="https://my.kex-express.com/tracking" target="_blank">https://my.kex-express.com/tracking</a>
+  </div>
+</div>
+
+<div class="footer">© CIDB Footer</div>
+
+</body>
+</html>
